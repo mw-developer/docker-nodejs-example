@@ -21,7 +21,7 @@ This repository contains source code for a basic `to-do` CRUD (Create, Read, Upd
 ```
 FROM node:14-alpine
 WORKDIR /usr/src/app
-COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install 
 COPY . .
 EXPOSE 3001
