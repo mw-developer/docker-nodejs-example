@@ -35,5 +35,5 @@ Run the following commands in your terminal to build the image, start a containe
 ```
 docker build -t <image-tag> .
 docker run -p 3001:3001 <image-tag>
-curl http://127.0.0.1:3001
+curl http://127.0.0.1:3001/test
 ```
